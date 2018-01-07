@@ -1,12 +1,17 @@
 {
   "name": "poi-preset-web-ext",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
+  "scripts": {
+    "example-react:build": "poi build --config example-react/poi.config.js -d extension --manifest"
+  },
   "license": "MIT",
   "devDependencies": {
-    "web-ext": "^2.2.2"
+    "poi-preset-react": "^9.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
