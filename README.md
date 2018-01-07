@@ -29,7 +29,7 @@ Suffix poi build command with `--manifest` to generate extension manifest.json f
 poi build --manifest
 ```
 
-See [a complete example](https://github.com/edgji/poi-preset-web-ext/example-react)
+See [a complete example](./example-react)
 
 ## Options
 

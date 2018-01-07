@@ -5,6 +5,7 @@
   "files": [
     "lib"
   ],
+  "repository": "github:edgji/poi-preset-web-ext",
   "scripts": {
     "example-react:build": "poi build --config example-react/poi.config.js -d extension --manifest"
   },
