@@ -1,6 +1,6 @@
 {
   "name": "poi-preset-web-ext",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -13,6 +13,7 @@
   "devDependencies": {
     "poi-preset-react": "^9.2.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "webpack-chrome-extension-reloader": "^0.6.2"
   }
 }
