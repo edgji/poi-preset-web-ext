@@ -17,6 +17,7 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "webpack-chrome-extension-reloader": "^0.6.2"
+    "webpack-chrome-extension-reloader": "^0.6.2",
+    "write-file-webpack-plugin": "^4.2.0"
   }
 }
