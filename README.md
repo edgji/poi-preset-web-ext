@@ -22,14 +22,19 @@ module.exports = {
 }
 ```
 
+See [a complete example](./example-react)
 
-Suffix poi build command with `--manifest` to generate extension manifest.json file:
+
+## manifest.json generation
+
+Suffix poi dev/build command with `--manifest` to generate extension manifest.json file:
 
 ```bash
+poi --manifest
 poi build --manifest
 ```
 
-See [a complete example](./example-react)
+By default the preset will look for existing `manifest.json` file to copy to dist path in src
 
 ## Options
 
@@ -50,6 +55,13 @@ Path to the HTML template for generated `background.html`.
 ### manifestPath
 
 Type: `string`<br>
-Default: [`./lib/manifest.js`](./lib/manifest.js)
+Default: [`./lib/manifest.json`](./lib/manifest.json)
 
-Path to the module providing the json for generated `manifest.json`.
+Path to default manifest.json file that is copied to dist if one is not found in src directory.
+
+### pluginOptions
+
+Type: `object`<br>
+Default: `{}`
+
+Options for [webpack-chrome-extension-reloader](https://github.com/rubenspgcavalcante/webpack-chrome-extension-reloader).
