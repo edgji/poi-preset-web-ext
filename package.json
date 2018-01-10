@@ -1,13 +1,14 @@
 {
   "name": "poi-preset-web-ext",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "repository": "github:edgji/poi-preset-web-ext",
   "scripts": {
-    "example-react:build": "poi build --config example-react/poi.config.js -d extension --manifest"
+    "example-react": "poi --config example-react/poi.config.js -d extension --manifest",
+    "example-react:build": "poi build--config example-react/poi.config.js -d extension --manifest"
   },
   "license": "MIT",
   "devDependencies": {
